@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* 共通部分 */
+html{
+  font-size: 100%;
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 4%;
+}
+
+li{
+  list-style: none; 
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.logo{
+  width: 210px;
+  margin-top: 14px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 42px;
+  list-style: none;
+}
+
+.main-nav li{
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color: #432;
+}
+
+.main-nav a:hover{
+  color: #0bd;
+}
+
