@@ -28,7 +28,7 @@ h2{
   /* --- */
   font-size: 30px;
   text-align: center;
-  border-radius: 1px;
+  border-radius: 3px;
 }
 .top-wrapper{
   display: flex;
@@ -51,6 +51,7 @@ h2{
   max-width: 1920px;
   height: 600px;
   margin-bottom: 80px;
+  object-fit: cover;
 }
 
 .about-wrapper{
@@ -78,7 +79,7 @@ h2{
 }
 
 .about-detail{
-  margin-left: 50px ;
+  padding-left: 5%;
 }
 
 .slide ul{
@@ -95,6 +96,24 @@ h2{
 .slide-content-img{
   width: 250px;
   height: 170px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .about-wrapper{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-detail{
+  padding-left: 0;
+}
+  
+  .slide ul {
+    flex-direction: column;
+  }
+
+
 }
 
 
